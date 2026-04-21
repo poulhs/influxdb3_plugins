@@ -15,13 +15,14 @@ For more information about using plugins and triggers, see the InfluxDB 3 Get St
 
 Plugins in this repo are organized in a structured directory hierarchy that reflects their contributor or organizational grouping:
 
+```
  organization/
  ├── plugin_name/
  │   ├── README.md
  │   ├── plugin_name.py
  │   ├── config_*.toml (optional)
  │   └── plugin_library.json (for influxdata plugins)
-
+```
 ### Directory Structure Examples
 
  influxdata/basic_transformation/basic_transformation.py
