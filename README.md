@@ -25,9 +25,9 @@ Plugins in this repo are organized in a structured directory hierarchy that refl
 ```
 ### Directory Structure Examples
 
- influxdata/basic_transformation/basic_transformation.py
- examples/schedule/system_metrics/system_metrics.py
- suyashcjoshi/data-replicator/data-replicator.py
+* influxdata/basic_transformation/basic_transformation.py
+* examples/schedule/system_metrics/system_metrics.py
+* suyashcjoshi/data-replicator/data-replicator.py
 
 ### Naming Conventions
 
