@@ -10,7 +10,7 @@ The System Metrics Plugin provides comprehensive system monitoring capabilities 
 
 Plugin parameters may be specified as key-value pairs in the `--trigger-arguments` flag (CLI) or in the `trigger_arguments` field (API) when creating a trigger. Some plugins support TOML configuration files, which can be specified using the plugin's `config_file_path` parameter.
 
-If a plugin supports multiple trigger specifications, some parameters may depend on the trigger specification that you use.
+If a plugin supports multiple trigger specifications, some parameters may depend on the trigger specification that you use.r
 
 ### Plugin metadata
 
@@ -151,6 +151,7 @@ influxdb3 query \
 
 **Expected output**
 
+```
  +------+--------+-------+--------+------+--------+-------+--------+-------+-------+------------+------------------+
  | host | cpu    | user  | system | idle | iowait | nice  | irq    | load1 | load5 | load15     | time             |
  +------+--------+-------+--------+------+--------+-------+--------+-------+-------+------------+------------------+
@@ -160,6 +161,7 @@ influxdb3 query \
  | srv1 | total  | 14.2  | 5.8    | 79.0 | 0.8    | 0.0   | 0.2    | 0.89  | 0.92  | 0.88       | 2024-01-15 10:03 |
  | srv1 | total  | 12.9  | 5.4    | 80.6 | 0.9    | 0.0   | 0.2    | 0.86  | 0.92  | 0.88       | 2024-01-15 10:04 |
  +------+--------+-------+--------+------+--------+-------+--------+-------+-------+------------+------------------+
+```
 
 ## Code overview
 
